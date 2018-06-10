@@ -1,10 +1,10 @@
-# Tool to generate grpc and protobuf files
+# A build script tool to generate grpc and protobuf files
 
 ## Required
 
 - The v3 `protoc` command in `$PATH`
 
-## Example code:
+## Example code in `build.rs`:
 
 ```rust
 extern crate protoc_grpc;
