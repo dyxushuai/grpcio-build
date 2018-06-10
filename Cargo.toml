@@ -1,0 +1,17 @@
+[package]
+name = "protoc-grpc"
+version = "0.0.0"
+authors = ["xushuai <dyxushuai@gmail.com>"]
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/dyxushuai/protoc-grpc"
+repository = "https://github.com/dyxushuai/protoc-grpc"
+description = """
+protoc --grpc_out=... --plugin=protoc-gen-grpc=`which grpc_rust_plugin` available as API. protoc needs to be in $PATH, grpc_rust_plugin does not.
+"""
+
+[dependencies]
+protoc = "^2.0.0"
+protoc-rust = "^2.0.2"
+protobuf = "^2.0.2"
+grpcio-compiler = "^0.3.0"
+tempdir  = "~0.3"
